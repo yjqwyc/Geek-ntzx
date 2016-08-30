@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="theme-color" content="#2ecc71">
+<title> 基础知识补全V1.0 | Geeks&#39;</title>
+<meta name="description" content="The official site of GEEK@ntzx!">
+<meta name="keywords" content="">
+<link rel="stylesheet" href="/css/main.css">
+<link rel="canonical" href="http://ntzx-geek.cc/%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95/2016/08/%E4%B8%80%E4%BA%9B%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/">
+<link rel="alternate" type="application/rss+xml" title="Geeks'" href="http://ntzx-geek.cc/feed.xml" />
+<script>base_url = "";</script>
+  </head>
+  <body class="single">
+    <main class="main-container">
+        <header class="site-header">
+  <div class="container txt-center">
+    <a href="#" class="nav-toogle js-menu-trigger sliding-panel-button">
+      <span></span>
+      <span></span>
+      <span></span>
+    </a>
+    <nav class="js-menu sliding-panel-content">
+  <ul>
+    <li><a href="/">home</a></li>
+    <li><a href="/ctf/idf">IDF</a></li>
+    <li><a href="/渗透测试/i春秋">i春秋</a></li>
+    <li><a href="/wiki">Wiki</a></li>
+    <li><a href="/information">Information</a></li>
+  </ul>
+</nav>
+    <div class="js-menu-screen sliding-panel-fade-screen"></div>
+      <h1 class="post-title">基础知识补全V1.0</h1>
+  </div>
+</header>
+        <section class="main-content">
+          <article class="post">
+  <div class="post-content container">
+    <pre><code>应同学要求，今天来一发基础知识
+</code></pre>
+<hr />
+<h1>方法和心态（重中之重）</h1>
+<h2>看了一些别人发的教程后，一定要自己摸索一番，毕竟别人的又不是你的</h2>
+<p>比如说一个sql手工注入，教程里是  order by 5，也没有讲为什么，不懂，网上的东西看不懂，怎么办？</p>
+<p>那就换了试试，order by 4? 6?看看是什么情况（order by 5的意思是测试字段，5个）</p>
+<h2>问问题前要确保你试过所有你会的办法</h2>
+<p>有一些什么下载地址在哪里之类的就不要问了。。。。。我都把网址发给你了，下载地址找不到？</p>
+<p>乘早洗洗睡吧</p>
+<hr />
+<h3>基础常识</h3>
+<p>推荐：http://www.hetianlab.com/cour.do?w=1&amp;c=52f94010-3e96-4835-9e20-887330360661</p>
+<p>比较具体，在学习资源里还有讲解，主要看前8个</p>
+<p>其他的随意看看就好，这不是关键，入门阶段主要是实践</p>
+<hr />
+<h3>必备技能</h3>
+<p>linux的安装使用</p>
+<p>能读懂主流语言代码</p>
+<p>搜索引擎的使用</p>
+<hr />
+<h2>工具(重点)</h2>
+<p>俗话说得好：工欲善其事，必先利其器。在小白阶段，利用工具是一个很好的方式</p>
+<h3>推荐安装 <a href="https://www.kali.org">Kali linux</a></h3>
+<h4>1.SQLmap</h4>
+<blockquote><p>http://sqlmap.org/</p></blockquote>
+<p>这是一个自动化的sql注入工具</p>
+<p>先了解一下是什么就好</p>
+<h5>不要想把所有的用法都掌握，遇到什么情况百度就好，比如access注入</h5>
+<blockquote><p>常用参数  sqlmap -u 网址  ：测试该页面是否可以注入</p></blockquote>
+<h4>2.BurpSuite</h4>
+<p>一个很好的截断工具，把浏览器的数据包都挡住，可以修改参数再提交</p>
+<p>下载：kali自带，windows需要jre,百度jre安装
+     <a href="http://www.waitalone.cn/burpsuite-v1-7-03.html">win版</a></p>
+<p><a href="http://www.2cto.com/Article/201406/310929.html">使用方法</a></p>
+<h5>推荐在实验环境中学习</h5>
+<h4>3.中国菜刀</h4>
+<p>连接一句话的（关于一句话，<a href="http://www.ntzx-geek.cc/%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95/i%E6%98%A5%E7%A7%8B/2016/08/i%E6%98%A5%E7%A7%8B-%E6%88%91%E5%BE%88%E7%AE%80%E5%8D%95%EF%BC%8C%E8%AF%B7%E4%B8%8D%E8%A6%81%E6%AC%BA%E8%B4%9F%E6%88%91/">这里</a>比较详细）</p>
+<p>不过现在菜刀没有正常一点的版本了，都有后门，推荐实际环境用(蚁剑)[https://github.com/antoor/antSword]</p>
+<p>这里提示一下，蚁剑的github看似没有了，实际上编译好的在releases里面，源代码在别的branches里</p>
+<hr />
+<hr />
+<p>目前大致这么多，想起来以后在更</p>
+  </div>
+</article>
+        </section>
+<div class="clearfix"></div>
+<footer class="site-footer txt-center">
+  <hr>
+  <small>Version:1.0</small>
+  <small>江苏省南通中学极客共进交流会</small>
+  <small>　　</small>
+  <small>Made with <a href="http://jekyllrb.com" target="_blank">Jekyll</a></small>
+  <small>Original version <i class="icon icon-heart"></i> by <a href="http://nandomoreira.me" target="_blank"> nandomoreira.me</a></small>
+  <small>The site is on <a href="https://pages.github.com" target="_blank">Github Pages</a></small>
+</footer>
+    </main>
+    <a href="https://github.com/yjqwyc/Geek-ntzx" target="_blank" class="github-corner"><svg width="80" height="80" viewBox="0 0 250 250" style="fill:#000; color:#fff; position: absolute; top: 0; border: 0; right: 0;"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a>
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/jekyll-search.min.js"></script>
+    <script src="/js/main.js"></script>
+  </body>
+</html>
